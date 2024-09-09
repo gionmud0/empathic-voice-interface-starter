@@ -1,8 +1,7 @@
 {
   "name": "hume-evi-next-js-starter",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://github.com/gionmud0/empathic-voice-interface-starter/",
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
