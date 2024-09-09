@@ -26,6 +26,11 @@ export default function RootLayout({
       >
         <Nav />
         {children}
+        
+        <div
+          <script>Adsense</script>
+      </div>
+      
       </body>
     </html>
   );
