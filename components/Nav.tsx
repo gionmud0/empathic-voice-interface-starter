@@ -1,7 +1,7 @@
 "use client";
 
 import { useLayoutEffect, useState } from "react";
-import HumeLogo from "./logos/Hume";
+import HumeLogo from "./logos/Humeo";
 import { Button } from "./ui/button";
 import { Moon, Sun } from "lucide-react";
 import Github from "./logos/GitHub";
@@ -33,24 +33,18 @@ export const Nav = () => {
       }
     >
       <div>
-        <HumeLogo className={"h-5 w-auto"} />
+        <BrandMark className={"h-5 w-auto"} />
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
         <Button
           onClick={() => {
             window.open(
-              pkg.homepage,
               "_blank",
-              "noopener noreferrer"
             );
           }}
           variant={"ghost"}
           className={"ml-auto flex items-center gap-1.5"}
         >
-          <span>
-            <Github className={"size-4"} />
-          </span>
-          <span></span>
         </Button>
         <Button
           onClick={toggleDark}
