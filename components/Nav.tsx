@@ -50,7 +50,7 @@ export const Nav = () => {
           <span>
             <Github className={"size-4"} />
           </span>
-          \\\ <span></span> ///
+          <span></span>
         </Button>
         <Button
           onClick={toggleDark}
