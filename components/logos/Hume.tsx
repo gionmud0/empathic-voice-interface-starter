@@ -1,12 +1,12 @@
 import type { FC, SVGAttributes } from "react";
 import { useId } from "react";
 
-export type HumeLogoProps = SVGAttributes<SVGSVGElement>;
+export type BrandMark = SVGAttributes<SVGSVGElement>;
 
-export default function HumeLogo(props: HumeLogoProps) {
+export default function BrandMark (props: BrandMark) {
   const id = useId();
 
-  const gradientId = `hume-logo-gradient-${id}`;
+  const gradientId = `logo_data/v3/${id}`;
 
   return (
     <svg
