@@ -14,7 +14,7 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>)
   return (
     <html lang="en">
       <body
@@ -29,8 +29,7 @@ export default function RootLayout({
         
         <div
           <script>Adsense</script>
-      </div>
-      
+      </div> 
       </body>
     </html>
   );
